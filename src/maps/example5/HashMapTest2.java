@@ -50,7 +50,7 @@ public class HashMapTest2 {
 		}
 		
 		/*
-		 * TreeMap - avaimen mukaan j‰rjestyksess‰
+		 * TreeMap - avaimen mukaan j√§rjestyksess√§
 		 */
 		System.out.println("Tulostus TreeMap:");
 		SortedMap<String, Auto> puuKartta = new TreeMap<String, Auto>(autot);
@@ -60,9 +60,7 @@ public class HashMapTest2 {
 	        Auto arvo = entry.getValue();  
 	        System.out.println(avain + " " + arvo.getMerkki());   
 		}
-		/*Map<String, List<Auto>> autot2 = new HashMap<>();	
-		autot2.computeIfAbsent(auto1.getRekNro(), k -> new ArrayList<Auto>()).add(auto1);
-		System.out.println("autot2: " + autot2);*/
+
 	}
 
 }
